@@ -30,3 +30,9 @@ console.log(qsClass2);
 
 const qsAllClass = document.querySelectorAll(".tweet__box");
 console.log(qsAllClass);
+
+
+
+// window, document
+console.log(window);
+console.log(document);
