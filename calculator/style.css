@@ -1,0 +1,6 @@
+/* 마진과 패팅을 없애고, 모두 border-box로 바꿔주는 코드*/
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}

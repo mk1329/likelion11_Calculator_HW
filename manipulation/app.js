@@ -10,12 +10,9 @@
 // 2. 내용 접근
 // textContent : 선택한 요소에서 HTML 요소를 제거한 순수한 텍스트 데이터의 값
 // innerText : textContent와 비슷하지만 CSS에 종속적이라서 hidden시에 못 읽음
-console.log(qsClass2.textContent);
-console.log(tagName[0].textContent);
-qsClass2.textContent = "나는 tweet box가 아니야";  // 내부 내용 변경
 
 // innerHTML : 선택한 요소의 HTML 태그를 그대로 제공 (보안에 취약)
-console.log(qsTag.innerHTML);
+
 
 
 
@@ -59,8 +56,6 @@ console.log("firstClild는", firstChild);
 
 // 6. 클래스 조작
 // className : 클래스 이름  / classList : 클래스 이름들
-console.log(qsClass1.className);
-console.log(qsClass1.classList);
 
 // classList.add(a) : 클래스 추가
 
@@ -78,5 +73,3 @@ console.log(qsClass1.classList);
 
 
 // 7. 스타일 조작 - sytle.css속성
-qsClass1.style.color = "blue";
-qsClass1.style.fontSize = "40px";

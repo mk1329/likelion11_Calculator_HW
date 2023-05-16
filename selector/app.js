@@ -1,4 +1,3 @@
-// 1. 기본적 사용
 // getElementByTageName (-> h1)
 const tagName = document.getElementsByTagName("h1");
 console.log(tagName);
