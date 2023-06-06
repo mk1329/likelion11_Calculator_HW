@@ -3,4 +3,52 @@
     margin: 0;
     padding : 0;
     box-sizing: border-box;
+    font-weight: bold;
+}
+
+.calculator{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2px;
+}
+input{
+    padding: 15px;
+    margin: 5px;
+    font-size: 35px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+#resultFld{
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    background-color: aliceblue;
+    font-size: 30px;
+}
+#clear{
+    display: grid;
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    background-color: rgb(254, 78, 78);
+    border: 3px solid blue;
+}
+#dot{
+    background-color: rgb(255, 183, 0);
+}
+.num{
+    background-color: aliceblue;
+}
+#equal{
+    grid-column: 3 / 5;
+    grid-row: 6 / 7;
+    color: white;
+    background-color: rgb(66, 66, 66);
+}
+.cal{
+    color: white;
+    background-color: rgb(66, 66, 66);
 }

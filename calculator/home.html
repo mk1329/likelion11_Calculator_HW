@@ -11,7 +11,26 @@
 </head>
 
 <body>
-
+    <div class="calculator">
+        <input type="text" id="resultFld">
+        <input type="button" id="clear" value="C" onclick="clear_del()">
+        <input type="button" class="cal" value="/" onclick="btn_click('/')">
+        <input type="button" class="num" value="1" onclick="btn_click(1)">
+        <input type="button" class="num" value="2" onclick="btn_click(2)">
+        <input type="button" class="num" value="3" onclick="btn_click(3)">
+        <input type="button" class="cal" value="*" onclick="btn_click('*')">
+        <input type="button" class="num" value="4" onclick="btn_click(4)">
+        <input type="button" class="num" value="5" onclick="btn_click(5)">
+        <input type="button" class="num" value="6" onclick="btn_click(6)">
+        <input type="button" class="cal" value="+" onclick="btn_click('+')">
+        <input type="button" class="num" value="7" onclick="btn_click(7)">
+        <input type="button" class="num" value="8" onclick="btn_click(8)">
+        <input type="button" class="num" value="9" onclick="btn_click(9)">
+        <input type="button" class="cal" value="-" onclick="btn_click('-')">
+        <input type="button" id="dot" value="." onclick="btn_click('.')">
+        <input type="button" class="num" value="0" onclick="btn_click(0)">
+        <input type="button" id="equal" value="=" onclick="compute()">
+    </div>
 </body>
 
 </html>
